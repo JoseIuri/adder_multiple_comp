@@ -1,0 +1,7 @@
+Sinal,Tamanho,I/O,Sync,Signed,Descrição
+reset,1,I,Async,u,"Reset, assíncrono e ALTO ativo"
+clk,1,I,clk,u,Clock funcional
+a,4,I,clk,u,Primeiro Operando
+b,4,I,clk,u,Segundo Operando
+valid,1,I,clk,u,Sinal de validade da entrada
+c,7,O,clk,u,Sinal de saida
